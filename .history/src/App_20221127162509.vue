@@ -7,6 +7,7 @@
 import { registerAPI } from '@/api'
 export default {
   async created () {
+    console.log('123')
     const res = await registerAPI()
     console.log(res)
   }

@@ -2,8 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import '@/assets/global.less'
-import '@/elementUI'
+import './'
 Vue.config.productionTip = false
 
 new Vue({
